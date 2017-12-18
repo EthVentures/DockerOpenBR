@@ -32,5 +32,5 @@ RUN cd \
 	&& make -j4 \
 	&& make install
 
-RUN mkdir /sample
-ADD ./sample /sample
+RUN mkdir /images
+ADD ./images /images
